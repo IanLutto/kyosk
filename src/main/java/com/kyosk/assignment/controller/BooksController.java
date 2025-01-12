@@ -19,4 +19,6 @@ public class BooksController {
     public List<Book> getBooks() {
         return booksService.getAllBooks();
     }
+
+    // Add a new endpoint to create a new book
 }
