@@ -23,5 +23,4 @@ public class BooksController {
     // Add a new endpoint to create a new book
     // test 1
     // test 2
-    // test 3
 }
