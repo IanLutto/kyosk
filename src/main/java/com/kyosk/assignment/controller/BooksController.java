@@ -21,5 +21,4 @@ public class BooksController {
     }
 
     // Add a new endpoint to create a new book
-//    @PostMapping("/books")
 }
