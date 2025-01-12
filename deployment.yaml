@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: assignment-app-deployment
+spec:
+  replicas: 1  # Number of replicas of your app to run
+  selector:
+    matchLabels:
+      app: assignment-app
+  template:
+    metadata:
+      labels:
+        app: assignment-app
+    spec:
+      containers:
+        - name: assignment-app
+          image: lutomiah/assignment-app:latest  # Image name
+          ports:
+            - containerPort: 8080
